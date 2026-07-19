@@ -8,7 +8,7 @@ and private DNS scopes.
 
 ```hcl
 module "dns_zone" {
-  source = "github.com/cybercapybara/terraform-oci-dns"
+  source = "github.com/moveeeax/terraform-oci-dns"
 
   compartment_id = var.compartment_id
   name           = "example.com"
